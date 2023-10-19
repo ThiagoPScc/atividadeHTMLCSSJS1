@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade1</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+        }
+        #formu{
+            width: 400px;
+            border-width: 22px;
+            border-color: red;
+            border-style: double;
+            padding: 30px;
+        }
+        .textoO{
+            font-weight: bold;
+        }
+        .texto{
+            background-color: gold;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteudo">
+        <form id="formu">
+            <label class="textoO">Valor 1:</label>
+            <input type="text" id="texto1" class="texto"><br>
+            <label class="textoO">Valor 2:</label>
+            <input type="text" id="texto2" class="texto"><br>
+            <label class="textoO">Opções:</label><br>
+            <input type="radio" name="opcao" value="soma">SOMA<br>
+            <input type="radio" name="opcao" value="subtracao">SUBTRAÇÃO<br>
+            <input type="radio" name="opcao" value="multiplica">MULTIPLICAÇÃO<br>
+            <input type="radio" name="opcao" value="divisao">DIVISÃO<br>
+            <label class="textoO">Resultado:</label><br>
+            <input type="text" id="texto3" class="texto"><br>
+            <input type="button" value="Calcular">
+        </form>
+    </div>
+    
+</body>
+</html>
